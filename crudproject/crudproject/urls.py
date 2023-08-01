@@ -2,7 +2,7 @@
 from django.contrib import admin
 from django.urls import path
 from enroll.views import add_show, delete_data, edit_data
-from django.contrib.staticfiles.urls import statifiles_urlpatterns
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
