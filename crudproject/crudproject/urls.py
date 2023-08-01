@@ -11,4 +11,3 @@ urlpatterns = [
     path('edit/<int:id>/', edit_data, name='edit'),
 ]
 urlpatterns += staticfiles_urlpatterns()
-
