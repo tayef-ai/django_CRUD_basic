@@ -10,5 +10,5 @@ urlpatterns = [
     path('delete/<int:id>/', delete_data, name='delete'),
     path('edit/<int:id>/', edit_data, name='edit'),
 ]
-urlpatterns += statifiles_urlpatterns()
+urlpatterns += staticfiles_urlpatterns()
 
